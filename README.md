@@ -49,7 +49,7 @@
             python run_model.py --model="rlhier" --mode="train" --restore=True --PathToCheckpoint=/path/to/checkpoint --PathToTB=/path/to/tensorboard/logs
  
   - Testing
-    - Check the epoch numner of the best supervised model from TensorBoard, let it be X.
+    - Check the epoch number of the best supervised model from TensorBoard, let it be X.
       
             python run_model.py --model="rlhier" --mode="train" --restore=True --PathToCheckpoint=/path/to/checkpoint/model_epochX --PathToResults=/path/to/results
   
